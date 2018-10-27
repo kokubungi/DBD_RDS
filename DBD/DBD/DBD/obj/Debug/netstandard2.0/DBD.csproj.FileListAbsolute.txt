@@ -1,0 +1,14 @@
+C:\Users\shouta1\AppData\Local\Programs\Git\kokubungi\DBD_RDS\DBD\DBD\DBD\bin\Debug\netstandard2.0\DBD.deps.json
+C:\Users\shouta1\AppData\Local\Programs\Git\kokubungi\DBD_RDS\DBD\DBD\DBD\bin\Debug\netstandard2.0\DBD.dll
+C:\Users\shouta1\AppData\Local\Programs\Git\kokubungi\DBD_RDS\DBD\DBD\DBD\bin\Debug\netstandard2.0\DBD.pdb
+C:\Users\shouta1\AppData\Local\Programs\Git\kokubungi\DBD_RDS\DBD\DBD\DBD\obj\Debug\netstandard2.0\DBD.csprojAssemblyReference.cache
+C:\Users\shouta1\AppData\Local\Programs\Git\kokubungi\DBD_RDS\DBD\DBD\DBD\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\shouta1\AppData\Local\Programs\Git\kokubungi\DBD_RDS\DBD\DBD\DBD\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\shouta1\AppData\Local\Programs\Git\kokubungi\DBD_RDS\DBD\DBD\DBD\obj\Debug\netstandard2.0\DBD.csproj.CoreCompileInputs.cache
+C:\Users\shouta1\AppData\Local\Programs\Git\kokubungi\DBD_RDS\DBD\DBD\DBD\obj\Debug\netstandard2.0\DBD.AssemblyInfoInputs.cache
+C:\Users\shouta1\AppData\Local\Programs\Git\kokubungi\DBD_RDS\DBD\DBD\DBD\obj\Debug\netstandard2.0\DBD.AssemblyInfo.cs
+C:\Users\shouta1\AppData\Local\Programs\Git\kokubungi\DBD_RDS\DBD\DBD\DBD\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\shouta1\AppData\Local\Programs\Git\kokubungi\DBD_RDS\DBD\DBD\DBD\obj\Debug\netstandard2.0\DBD.dll
+C:\Users\shouta1\AppData\Local\Programs\Git\kokubungi\DBD_RDS\DBD\DBD\DBD\obj\Debug\netstandard2.0\DBD.pdb
+C:\Users\shouta1\AppData\Local\Programs\Git\kokubungi\DBD_RDS\DBD\DBD\DBD\obj\Debug\netstandard2.0\DBD.library.Twining.WpfApplication.Properties.Resources.resources
+C:\Users\shouta1\AppData\Local\Programs\Git\kokubungi\DBD_RDS\DBD\DBD\DBD\obj\Debug\netstandard2.0\DBD.csproj.GenerateResource.cache
