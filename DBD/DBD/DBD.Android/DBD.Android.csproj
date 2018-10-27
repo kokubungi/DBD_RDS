@@ -49,7 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
+    <PackageReference Include="Xamarin.Forms" Version="3.3.0.912540" />
     <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2.1" />
     <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="27.0.2.1" />
     <PackageReference Include="Xamarin.Android.Support.v4" Version="27.0.2.1" />
@@ -93,7 +93,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DBD\DBD.csproj">
-      <Project>{FEA17FFA-139A-4F73-9DBE-0B00EC734CA4}</Project>
+      <Project>{A57A67E7-270E-446E-A6F4-97B4936F145D}</Project>
       <Name>DBD</Name>
     </ProjectReference>
   </ItemGroup>

@@ -148,12 +148,15 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
+    <PackageReference Include="Xamarin.Forms" Version="3.3.0.912540" />
+    <PackageReference Include="Realm">
+      <Version>3.2.1</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\DBD\DBD.csproj">
-      <Project>{FEA17FFA-139A-4F73-9DBE-0B00EC734CA4}</Project>
+      <Project>{A57A67E7-270E-446E-A6F4-97B4936F145D}</Project>
       <Name>DBD</Name>
     </ProjectReference>
   </ItemGroup>

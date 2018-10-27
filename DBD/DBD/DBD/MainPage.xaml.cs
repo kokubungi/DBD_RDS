@@ -13,5 +13,9 @@ namespace DBD
         {
             InitializeComponent();
         }
+        async void OnButtonClicked(object sender, EventArgs args)
+        {
+            LabelText.Text = "Good job!";
+        }
     }
 }

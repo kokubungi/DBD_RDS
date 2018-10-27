@@ -6,9 +6,17 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
+        <Label Text="Siri✖️砂民!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        <Button Text="追加で" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand"
+           Clicked="OnButtonClicked"/>
+        <Label x:Name="LabelText" Text=""
+               HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand"/>
+        
     </StackLayout>
 
 </ContentPage>
