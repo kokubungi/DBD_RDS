@@ -1,0 +1,5 @@
+DBD/DBD/DBD.Android/obj/*
+DBD/DBD/DBD/obj/*
+DBD/DBD/DBD.iOS/obj/*
+DBD/DBD/DBD.iOS/DBD.iOS.csproj.user
+DBD/.vs/*
