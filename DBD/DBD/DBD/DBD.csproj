@@ -11,6 +11,6 @@
 
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.3.0.912540" />
-    <PackageReference Include="Fody" Version="3.2.13" />
+    <PackageReference Include="Fody" Version="3.2.16" />
   </ItemGroup>
 </Project>

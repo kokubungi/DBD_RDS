@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v8.1": {
-      "Fody/3.2.13": {
+      "Fody/3.2.16": {
         "type": "package",
         "build": {
           "build/_._": {}
@@ -351,7 +351,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Fody": "3.2.13",
+          "Fody": "3.2.16",
           "Xamarin.Forms": "3.3.0.912540"
         },
         "compile": {
@@ -364,14 +364,14 @@
     }
   },
   "libraries": {
-    "Fody/3.2.13": {
-      "sha512": "4Ktzm5sL7lc4fqH2+uYCyrPN+OXf5oGrWLDf8qmz/blufCewzHkWzLZgQJ43MiSkFkyNiDN0wi2HypUaSvsgdg==",
+    "Fody/3.2.16": {
+      "sha512": "eGW99kZo/E4C4AQ5LMwsbk/wy/RGxJDBIYoIzTtU64r6BQqAtrhSo1QQN2Hj2AuZDPOVYAu93DbfC4rvw4/Pqg==",
       "type": "package",
-      "path": "fody/3.2.13",
+      "path": "fody/3.2.16",
       "files": [
         ".signature.p7s",
         "build/Fody.targets",
-        "fody.3.2.13.nupkg.sha512",
+        "fody.3.2.16.nupkg.sha512",
         "fody.nuspec",
         "netclassictask/Fody.dll",
         "netclassictask/Fody.pdb",
@@ -825,19 +825,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/mukoyama/.nuget/packages/": {}
+    "/Users/a/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mukoyama/Projects/kokubungi/DBD_RDS.git/DBD/DBD/DBD.Android/DBD.Android.csproj",
+      "projectUniqueName": "/Users/a/Projects/DBD/DBD/DBD.Android/DBD.Android.csproj",
       "projectName": "DBD.Android",
-      "projectPath": "/Users/mukoyama/Projects/kokubungi/DBD_RDS.git/DBD/DBD/DBD.Android/DBD.Android.csproj",
-      "packagesPath": "/Users/mukoyama/.nuget/packages/",
-      "outputPath": "/Users/mukoyama/Projects/kokubungi/DBD_RDS.git/DBD/DBD/DBD.Android/obj",
+      "projectPath": "/Users/a/Projects/DBD/DBD/DBD.Android/DBD.Android.csproj",
+      "packagesPath": "/Users/a/.nuget/packages/",
+      "outputPath": "/Users/a/Projects/DBD/DBD/DBD.Android/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/mukoyama/.config/NuGet/NuGet.Config"
+        "/Users/a/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid81"
@@ -848,8 +848,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/mukoyama/Projects/kokubungi/DBD_RDS.git/DBD/DBD/DBD/DBD.csproj": {
-              "projectPath": "/Users/mukoyama/Projects/kokubungi/DBD_RDS.git/DBD/DBD/DBD/DBD.csproj"
+            "/Users/a/Projects/DBD/DBD/DBD/DBD.csproj": {
+              "projectPath": "/Users/a/Projects/DBD/DBD/DBD/DBD.csproj"
             }
           }
         }

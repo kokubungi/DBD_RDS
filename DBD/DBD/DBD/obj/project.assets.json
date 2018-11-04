@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "Fody/3.2.13": {
+      "Fody/3.2.16": {
         "type": "package",
         "build": {
           "build/Fody.targets": {}
@@ -52,14 +52,14 @@
     }
   },
   "libraries": {
-    "Fody/3.2.13": {
-      "sha512": "4Ktzm5sL7lc4fqH2+uYCyrPN+OXf5oGrWLDf8qmz/blufCewzHkWzLZgQJ43MiSkFkyNiDN0wi2HypUaSvsgdg==",
+    "Fody/3.2.16": {
+      "sha512": "eGW99kZo/E4C4AQ5LMwsbk/wy/RGxJDBIYoIzTtU64r6BQqAtrhSo1QQN2Hj2AuZDPOVYAu93DbfC4rvw4/Pqg==",
       "type": "package",
-      "path": "fody/3.2.13",
+      "path": "fody/3.2.16",
       "files": [
         ".signature.p7s",
         "build/Fody.targets",
-        "fody.3.2.13.nupkg.sha512",
+        "fody.3.2.16.nupkg.sha512",
         "fody.nuspec",
         "netclassictask/Fody.dll",
         "netclassictask/Fody.pdb",
@@ -384,29 +384,29 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "Fody >= 3.2.13",
+      "Fody >= 3.2.16",
       "NETStandard.Library >= 2.0.3",
       "Xamarin.Forms >= 3.3.0.912540"
     ]
   },
   "packageFolders": {
-    "/Users/mukoyama/.nuget/packages/": {},
+    "/Users/a/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mukoyama/Projects/kokubungi/DBD_RDS.git/DBD/DBD/DBD/DBD.csproj",
+      "projectUniqueName": "/Users/a/Projects/DBD/DBD/DBD/DBD.csproj",
       "projectName": "DBD",
-      "projectPath": "/Users/mukoyama/Projects/kokubungi/DBD_RDS.git/DBD/DBD/DBD/DBD.csproj",
-      "packagesPath": "/Users/mukoyama/.nuget/packages/",
-      "outputPath": "/Users/mukoyama/Projects/kokubungi/DBD_RDS.git/DBD/DBD/DBD/obj",
+      "projectPath": "/Users/a/Projects/DBD/DBD/DBD/DBD.csproj",
+      "packagesPath": "/Users/a/.nuget/packages/",
+      "outputPath": "/Users/a/Projects/DBD/DBD/DBD/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/mukoyama/.config/NuGet/NuGet.Config"
+        "/Users/a/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -434,7 +434,7 @@
           },
           "Fody": {
             "target": "Package",
-            "version": "3.2.13"
+            "version": "3.2.16"
           },
           "NETStandard.Library": {
             "suppressParent": "All",
