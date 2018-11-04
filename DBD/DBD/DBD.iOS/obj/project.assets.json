@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
-      "Fody/3.2.13": {
+      "Fody/3.2.16": {
         "type": "package",
         "build": {
           "build/Fody.targets": {}
@@ -320,7 +320,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Fody": "3.2.13",
+          "Fody": "3.2.16",
           "Xamarin.Forms": "3.3.0.912540"
         },
         "compile": {
@@ -332,7 +332,7 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
-      "Fody/3.2.13": {
+      "Fody/3.2.16": {
         "type": "package",
         "build": {
           "build/Fody.targets": {}
@@ -626,7 +626,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Fody": "3.2.13",
+          "Fody": "3.2.16",
           "Xamarin.Forms": "3.3.0.912540"
         },
         "compile": {
@@ -638,7 +638,7 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
-      "Fody/3.2.13": {
+      "Fody/3.2.16": {
         "type": "package",
         "build": {
           "build/Fody.targets": {}
@@ -932,7 +932,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Fody": "3.2.13",
+          "Fody": "3.2.16",
           "Xamarin.Forms": "3.3.0.912540"
         },
         "compile": {
@@ -944,7 +944,7 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
-      "Fody/3.2.13": {
+      "Fody/3.2.16": {
         "type": "package",
         "build": {
           "build/Fody.targets": {}
@@ -1238,7 +1238,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Fody": "3.2.13",
+          "Fody": "3.2.16",
           "Xamarin.Forms": "3.3.0.912540"
         },
         "compile": {
@@ -1251,14 +1251,14 @@
     }
   },
   "libraries": {
-    "Fody/3.2.13": {
-      "sha512": "4Ktzm5sL7lc4fqH2+uYCyrPN+OXf5oGrWLDf8qmz/blufCewzHkWzLZgQJ43MiSkFkyNiDN0wi2HypUaSvsgdg==",
+    "Fody/3.2.16": {
+      "sha512": "eGW99kZo/E4C4AQ5LMwsbk/wy/RGxJDBIYoIzTtU64r6BQqAtrhSo1QQN2Hj2AuZDPOVYAu93DbfC4rvw4/Pqg==",
       "type": "package",
-      "path": "fody/3.2.13",
+      "path": "fody/3.2.16",
       "files": [
         ".signature.p7s",
         "build/Fody.targets",
-        "fody.3.2.13.nupkg.sha512",
+        "fody.3.2.16.nupkg.sha512",
         "fody.nuspec",
         "netclassictask/Fody.dll",
         "netclassictask/Fody.pdb",
@@ -2049,31 +2049,34 @@
     ]
   },
   "packageFolders": {
-    "/Users/mukoyama/.nuget/packages/": {}
+    "C:\\Users\\shouta1\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mukoyama/Projects/kokubungi/DBD_RDS.git/DBD/DBD/DBD.iOS/DBD.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\shouta1\\AppData\\Local\\Programs\\Git\\kokubungi\\DBD_RDS\\DBD\\DBD\\DBD.iOS\\DBD.iOS.csproj",
       "projectName": "DBD.iOS",
-      "projectPath": "/Users/mukoyama/Projects/kokubungi/DBD_RDS.git/DBD/DBD/DBD.iOS/DBD.iOS.csproj",
-      "packagesPath": "/Users/mukoyama/.nuget/packages/",
-      "outputPath": "/Users/mukoyama/Projects/kokubungi/DBD_RDS.git/DBD/DBD/DBD.iOS/obj",
+      "projectPath": "C:\\Users\\shouta1\\AppData\\Local\\Programs\\Git\\kokubungi\\DBD_RDS\\DBD\\DBD\\DBD.iOS\\DBD.iOS.csproj",
+      "packagesPath": "C:\\Users\\shouta1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\shouta1\\AppData\\Local\\Programs\\Git\\kokubungi\\DBD_RDS\\DBD\\DBD\\DBD.iOS\\obj\\",
       "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/mukoyama/.config/NuGet/NuGet.Config"
+        "C:\\Users\\shouta1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/mukoyama/Projects/kokubungi/DBD_RDS.git/DBD/DBD/DBD/DBD.csproj": {
-              "projectPath": "/Users/mukoyama/Projects/kokubungi/DBD_RDS.git/DBD/DBD/DBD/DBD.csproj"
+            "C:\\Users\\shouta1\\AppData\\Local\\Programs\\Git\\kokubungi\\DBD_RDS\\DBD\\DBD\\DBD\\DBD.csproj": {
+              "projectPath": "C:\\Users\\shouta1\\AppData\\Local\\Programs\\Git\\kokubungi\\DBD_RDS\\DBD\\DBD\\DBD\\DBD.csproj"
             }
           }
         }
@@ -2082,13 +2085,13 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "3.3.0.912540"
-          },
           "Realm": {
             "target": "Package",
-            "version": "3.2.1"
+            "version": "[3.2.1, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[3.3.0.912540, )"
           }
         }
       }

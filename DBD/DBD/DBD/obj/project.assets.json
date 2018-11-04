@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "Fody/3.2.13": {
+      "Fody/3.2.16": {
         "type": "package",
         "build": {
           "build/Fody.targets": {}
@@ -52,14 +52,14 @@
     }
   },
   "libraries": {
-    "Fody/3.2.13": {
-      "sha512": "4Ktzm5sL7lc4fqH2+uYCyrPN+OXf5oGrWLDf8qmz/blufCewzHkWzLZgQJ43MiSkFkyNiDN0wi2HypUaSvsgdg==",
+    "Fody/3.2.16": {
+      "sha512": "eGW99kZo/E4C4AQ5LMwsbk/wy/RGxJDBIYoIzTtU64r6BQqAtrhSo1QQN2Hj2AuZDPOVYAu93DbfC4rvw4/Pqg==",
       "type": "package",
-      "path": "fody/3.2.13",
+      "path": "fody/3.2.16",
       "files": [
         ".signature.p7s",
         "build/Fody.targets",
-        "fody.3.2.13.nupkg.sha512",
+        "fody.3.2.16.nupkg.sha512",
         "fody.nuspec",
         "netclassictask/Fody.dll",
         "netclassictask/Fody.pdb",
@@ -110,10 +110,12 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "sha512": "R73gEjqCkI2Nw/IlN8QvcgPNklqQiPowp47JwvW0Bnp/RZnjN4UrJwEvWVJWRK1MsQ+HIfGe9i4aQlfK+ei9jA==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "build/netstandard2.0/NETStandard.Library.targets",
@@ -384,34 +386,36 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "Fody >= 3.2.13",
+      "Fody >= 3.2.16",
       "NETStandard.Library >= 2.0.3",
       "Xamarin.Forms >= 3.3.0.912540"
     ]
   },
   "packageFolders": {
-    "/Users/mukoyama/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\shouta1\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mukoyama/Projects/kokubungi/DBD_RDS.git/DBD/DBD/DBD/DBD.csproj",
+      "projectUniqueName": "C:\\Users\\shouta1\\AppData\\Local\\Programs\\Git\\kokubungi\\DBD_RDS\\DBD\\DBD\\DBD\\DBD.csproj",
       "projectName": "DBD",
-      "projectPath": "/Users/mukoyama/Projects/kokubungi/DBD_RDS.git/DBD/DBD/DBD/DBD.csproj",
-      "packagesPath": "/Users/mukoyama/.nuget/packages/",
-      "outputPath": "/Users/mukoyama/Projects/kokubungi/DBD_RDS.git/DBD/DBD/DBD/obj",
+      "projectPath": "C:\\Users\\shouta1\\AppData\\Local\\Programs\\Git\\kokubungi\\DBD_RDS\\DBD\\DBD\\DBD\\DBD.csproj",
+      "packagesPath": "C:\\Users\\shouta1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\shouta1\\AppData\\Local\\Programs\\Git\\kokubungi\\DBD_RDS\\DBD\\DBD\\DBD\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/mukoyama/.config/NuGet/NuGet.Config"
+        "C:\\Users\\shouta1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -428,19 +432,19 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "3.3.0.912540"
-          },
           "Fody": {
             "target": "Package",
-            "version": "3.2.13"
+            "version": "[3.2.16, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.3",
+            "version": "[2.0.3, )",
             "autoReferenced": true
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[3.3.0.912540, )"
           }
         },
         "imports": [
